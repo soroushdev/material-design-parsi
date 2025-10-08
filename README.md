@@ -1,26 +1,11 @@
-# Material Design Parsi (MDP)
+## 🚀 Quick Start
 
-<p align="center">
-  <img src="https://suratech.ir/logo-mdp.png" width="120" alt="MDP Logo" />
-</p>
-
-**Persian-first, RTL-first Design System**  
-Built with ❤️ by **Soroush Soltani (SURATECH)**  
-[https://suratech.ir](https://suratech.ir)
-
----
-
-## 📦 Packages
-| Package | Description |
-|----------|-------------|
-| `@mdp/tokens` | Design Tokens for all MDP packages |
-| `@mdp/css` | Core CSS built from tokens |
-| `@mdp/react` | (Coming soon) React Components |
-| `@mdp/cli` | (Coming soon) Project scaffolding tool |
-
----
-
-## 🚀 Quick start
+To install and include **MDP CSS**, just copy and paste the following commands:
 
 ```bash
+# Install the CSS package
 npm install @mdp/css
+
+# Then include it manually in your HTML file:
+# (add this line inside the <head> tag of your HTML)
+<link rel="stylesheet" href="node_modules/@mdp/css/dist/mdp.rtl.css">
